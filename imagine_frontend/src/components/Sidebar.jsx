@@ -6,9 +6,9 @@ import { IoIosArrowForward } from 'react-icons/io';
 
 import logo from '../assets/logo.png';
 
-const isNotActiveStyle = 'flex items-center px-5 gap-3 transition-all duration-400 ease-in-out capitalize'
+const isNotActiveStyle = 'flex items-center px-5 gap-3 transition-all duration-200 ease-in-out capitalize'
 + ' text-gray-500 hover:text-black';
-const isActiveStyle = 'flex items-center px-5 gap-3 transition-all duration-400 ease-in-out capitalize'
+const isActiveStyle = 'flex items-center px-5 gap-3 transition-all duration-200 ease-in-out capitalize'
 + ' font-extrabold text-blue-500 border-r-2 border-blue-500';
 
 const categories = [
