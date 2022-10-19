@@ -16,10 +16,12 @@ const Pin = ({ pin: { postedBy, image, _id, destination, save } }) => {
 
     const user = fetchUser();
     //console.log(postedBy);
-    //console.log(save);
+    //console.log(_id);
+
+    
 
     //set it as bool
-    const alreadySaved = !!(save?.filter((item) => item.postedBy._id === user._id))?.length;
+    const alreadySaved =!!(save?.filter((item) => item.postedBy._id === user._id))?.length;
     //console.log(alreadySaved);
 
     const savePin = (id) => {
